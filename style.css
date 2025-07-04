@@ -1,12 +1,14 @@
-.container{
+.container {
     display:flex;
-    flex-wrap:wrap;
+    flex-wrap: wrap;
     width:640px;
     height:640px;
     border: 2px solid black;
+    margin:20px auto;
+    padding:0;
 }
 
-.square {
+.square{
     width:40px;
     height:40px;
     border: 1px solid #ccc;
