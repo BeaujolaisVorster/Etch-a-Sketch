@@ -13,4 +13,17 @@
     height:40px;
     border: 1px solid #ccc;
     box-sizing:border-box;
+    transition: background-color 0.3s ease;
+}
+
+.square.hovered{
+    background-color:cornflowerblue;
+}
+
+#reset-btn {
+  display: block;
+  margin: 20px auto;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
 }
